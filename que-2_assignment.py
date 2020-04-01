@@ -8,7 +8,7 @@ def rpsingh(i,j):
             r[i+k+m]=n
         break
     return(r)
-d= eval(input())     # 0r d =  {"key":3,"foo":{"a":5,"bar":{"baz":8}}}
+d= eval(input())      # 0r d =  {"key":3,"foo":{"a":5,"bar":{"baz":8}}}
 r=dict()
 for i,j in d.items():
     if type(j) is dict:
